@@ -8,7 +8,30 @@ body{
    background-size: 100% cover!important;
    overflow:hidden;
    display: block;
-} 
+}
+
+#allPost{
+    top: 50%;
+    left: 40%;
+
+}
+
+#createPost{
+    top: 50%;
+    left: 52%;
+}
+
+.Buttons{
+    background-color: gold;
+    color: black;
+    text-align: center;
+    position: absolute;
+    justify-content: center;
+    font-size: 15pt;
+    padding: 12px 28px;
+    font-weight: bold;
+}
+
 
 /* Set a style for the rest of the elements besides the header elements on the index.html page */
                                  
