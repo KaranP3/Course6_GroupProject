@@ -4,7 +4,6 @@
     <list default="true" id="05fefac9-25c6-49a2-bac3-f6e467fd8993" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stub/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/stub/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stub/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +69,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -178,12 +177,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546544853383</updated>
-      <workItem from="1546544855154" duration="1252000" />
+      <workItem from="1546544855154" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1252000" />
+    <option name="totallyTimeSpent" value="1686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
