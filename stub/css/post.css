@@ -2,10 +2,13 @@
     font-size: 150%;
     font-family: 'Abel', sans-serif;
     font-weight: bold;
+    width:100%;
+    text-align: center;
 }
 .blogText {
      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+     text-align: justify;
+     text-align-last:initial;
 }
 .blogAuthor {
     padding: 0px 0px 0px 10px;
