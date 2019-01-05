@@ -1,22 +1,22 @@
 .blogTite {
-    font-size: 150%;
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
-    width:100%;
-    text-align: center;
+	font-size: 150%;
+	font-family: 'Abel', sans-serif;
+	font-weight: bold;
+	width:100%;
+	text-align: center;
 }
 .blogText {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-align: justify;
-     text-align-last:initial;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: justify;
+	text-align-last:initial;
 }
 .blogAuthor {
-    padding: 0px 0px 0px 10px;
-    font-family: 'Niconne', cursive;
-    font-size: 30px;
-    display: flex;
-    justify-content: space-between;
-    width:100%;
+	padding: 0px 0px 0px 10px;
+	font-family: 'Niconne', cursive;
+	font-size: 30px;
+	display: flex;
+	justify-content: space-between;
+	width:100%;
 }
 .blogContent{
 
@@ -24,44 +24,39 @@
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
 #blogAuthorName{
-margin-left:0px;
+	margin-left:0px;
 }
 #EditContentButton{
 /*float: right;
 width:30%;*/
 }
 .btn{
-  background-color: #F02875;
-  border:none;
-  box-shadow: 0px 8px 15px rgba(246, 136, 178, 0.4);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-  color:#FFFFFF;
-  font-weight: bold;
-  font-size: 12pt;
-    padding: 12px 20px;
-    font-family: Helvetica;
-  }
+	background-color: #F02875;
+	border:none;
+	box-shadow: 0px 8px 15px rgba(246, 136, 178, 0.4);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	color:#FFFFFF;
+	font-family: Helvetica;
+}
 .btn:hover {
-  background-color: #F02875;
-  box-shadow: 0px 15px 20px rgba(246, 136, 178, 0.4);
-  color: #fff;
-  transform: translateY(-7px);
-  color:#FFFFFF;
-  font-weight: bold;
-  font-size: 12pt;
-  padding: 12px 20px;
-  font-family: Helvetica;
+	background-color: #F02875;
+	box-shadow: 0px 15px 20px rgba(246, 136, 178, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+	color:#FFFFFF;
+	
+	font-family: Helvetica;
 }
 #editContentButton{
-   
-   
-    margin-bottom: 16px;
+	
+	
+	margin-bottom: 16px;
 }
 #blogAuthorName{
- margin-left: 0px;
- text-align: left;
+	margin-left: 0px;
+	text-align: left;
 }
 #blogEditArea{
 	display:none;
@@ -70,5 +65,5 @@ width:30%;*/
 }
 
 #blogTitle{
-  border-color: #ffffff;
+	border-color: #ffffff;
 }
