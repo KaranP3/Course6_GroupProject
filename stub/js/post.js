@@ -7,9 +7,11 @@ var likeText= document.getElementById("likeText");
 var likeCounter =0;
 
 
-//click event for editContentButton
+//on Edit/Save button Click
 saveEditButton.addEventListener("click",()=>{
 	var blogContent='';
+
+	//editing part
 	if(saveEditButton.innerHTML.includes('Edit')){
 		
 		saveEditButton.innerHTML='Save &nbsp <i class="fa fa-save"></i>';
@@ -25,7 +27,9 @@ saveEditButton.addEventListener("click",()=>{
 
 
 
-	}else{
+	}
+	//saving part
+	else{
 		blogContent= blogEditArea.value;
 		console.log(blogContent);
 		saveEditButton.innerHTML='Edit'; 
@@ -39,7 +43,7 @@ saveEditButton.addEventListener("click",()=>{
 });
 
 
-// on likeButton click
+// on Like Button click
 likeButton.addEventListener('click',()=>{
 	likeCounter++;
 	likeButton.innerHTML="Liked!";
@@ -49,4 +53,17 @@ likeButton.addEventListener('click',()=>{
 		likeText.innerHTML= likeCounter+" people have liked this!";
 	}
 
+})
+
+// on Comment Button Click
+addCommentButton.addEventListener('click',()=>{
+	var commentText= addCommentArea.value;
+	addCommentArea.value='';
+	if(commentText==""){
+		alert("Please enter some comment text and press comment");
+	}
+	else{
+		commentList.innerHTML= "<p class='commentListElement'>"+commentText+"</p><br/>"+
+		commentList.innerHTML;
+	}
 })
