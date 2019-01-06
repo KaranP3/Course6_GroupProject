@@ -8,7 +8,7 @@ var likeCounter =0;
 
 
 //on Edit/Save button Click
-saveEditButton.addEventListener("click",()=>{
+function editBlog(){
 	var blogContent='';
 
 	//editing part
@@ -40,11 +40,12 @@ saveEditButton.addEventListener("click",()=>{
 		blogBody.innerHTML=blogContent;
 	}
 
-});
+}
+
 
 
 // on Like Button click
-likeButton.addEventListener('click',()=>{
+function likeBlog(){
 	likeCounter++;
 	likeButton.innerHTML="Liked!";
 	if(likeCounter==1){
@@ -52,18 +53,18 @@ likeButton.addEventListener('click',()=>{
 	}else{
 		likeText.innerHTML= likeCounter+" people have liked this!";
 	}
+}
 
-})
 
 // on Comment Button Click
-addCommentButton.addEventListener('click',()=>{
-	var commentText= addCommentArea.value;
+function addComment(){
+		var commentText= addCommentArea.value;
 	addCommentArea.value='';
 	if(commentText==""){
-		alert("Please enter some comment text and press comment");
+		alert("The comment text field is empty");
 	}
 	else{
 		commentList.innerHTML= "<p class='commentListElement'>"+commentText+"</p><br/>"+
 		commentList.innerHTML;
 	}
-})
+}
