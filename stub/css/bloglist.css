@@ -16,12 +16,6 @@
     }
 }
 
-@media screen and (max-width: 720px) { 
-    .post{
-        float: left;
-    }
-}
-
 @media screen and (max-width: 720px) {
     .post{
         width: 38%;
@@ -29,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 585px) { 
+@media screen and (max-width: 585px) {
     .post{
         width: 32%;
         float: left;
@@ -43,20 +37,26 @@
 }
 
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 500px) {
     .post{
         margin: 10px 2px 2px 60px; 
     }
 }
 
-@media screen and (max-width: 470px) { 
+@media screen and (max-width: 470px) {
     .post{
         position: inherit;
         display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .post{
         width: 40%;
         margin: 10px 2px 2px 18px; 
     }
 }
+
    
 .post-left {
         width: 15%;            
@@ -88,7 +88,7 @@
     height: 25px;
     }
     
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1060px) { 
     .post-title {
         font-size: 20px;
         height: 10px;
@@ -181,34 +181,22 @@ body {
     margin-right: auto;
 }
 
-@media screen and (max-width: 720px) { 
+@media screen and (max-width: 720px) {
     #centerPost{
         display: inline-block;
         margin-left: 225px;
     }
 }
 
-@media screen and (max-width: 587px) { 
+@media screen and (max-width: 587px) {
     #centerPost {
         margin-left: 200px;
     }
 }
 
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 550px) {
     #centerPost {
         margin-left: 180px;
-    }
-}
-
-@media screen and (max-width: 480px) { 
-    #centerPost {
-        margin-left: 160px;
-    }
-}
-
-@media screen and (max-width: 480px) { 
-    #centerPost {
-        margin-left: 160px;
     }
 }
 
@@ -230,6 +218,80 @@ body {
     font-size: x-large;
 }
 
-a{
+
+.delete-modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+a {
     color: black;
+    text-decoration: none;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid transparent;
+    width: 30%;
+  }
+  
+#modalBtnRed{
+    background: rgb(247, 87, 79);
+    text-align: right;
+    justify-content: right;
+    font-size: 12pt;
+    padding: 12px 50px;
+    border: 1px solid transparent;
+    color: white;
+  }
+
+#modalBtnRed:hover{
+    background: rgb(247, 87, 79, 0.8);
+
+}  
+
+#modalBtnRed:focus{
+    background: rgb(247, 87, 79);
+    outline: 0;
+}
+
+#modalBtnGreen{
+    background: rgba(97, 182, 102);
+    text-align: left;
+    justify-content: left;
+    font-size: 12pt;
+    padding: 12px 50px;
+    color: white;
+    margin-left: 90px;
+    cursor: pointer;
+    outline: 0;
+ }
+ 
+#modalBtnGreen:hover{
+    background: rgba(97, 182, 102, 0.8);
+ }
+
+#modalBtnGreen:focus{
+    background: rgba(97, 182, 102);
+    outline: 0;
+}
+
+.modalBtnContainer{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.center{
+    text-align: center;
+    color: black;
+    font-family: 'Itim', cursive;
 }
