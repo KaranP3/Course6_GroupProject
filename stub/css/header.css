@@ -4,12 +4,14 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     font-family: 'Satisfy';
     color: blue;
     font-size: 60px;
-
+    margin: 10px;
 }
 
 #subheading{
+    font-family: 'Satisfy';
     color: gray;
     font-size: 15px;
+    margin: 10px;
 }
 
 .button{
@@ -17,19 +19,67 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     text-align: center;
     position: absolute;
     justify-content: center;
-    font-size: 15pt;
-    padding: 12px 28px;
-    font-weight: bold;
+    font-size: 12pt;
+    padding: 12px 20px;
+    border: 1px solid transparent;
     color: white;
-    width: 145px;
+    border-radius: 4px;
+}  
+
+@media screen and (max-width: 850px) {
+    .button {
+        padding: 12px 5px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .button {
+        padding: 12px 3px;
+    }
 }
 
 #signinbtn{
     left: 80%;
-    top: 1%;
+    top: 1.5%;
 }
 
 #signupbtn{
     left: 90%;
-    top: 1%;
+    top: 1.5%;
+}
+
+@media screen and (max-width: 714px) {
+    #signin {
+        left: 78%;
+    }
+    #signup{
+        left: 89%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #signin {
+        left: 76%;
+    }
+    #signup{
+        left: 87%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    #signin {
+        left: 72%;
+    }
+    #signup{
+        left: 83%;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    #signin {
+        left: 68%;
+    }
+    #signup{
+        left: 83%;
+    }
 }
