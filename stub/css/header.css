@@ -23,12 +23,12 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     color: white;
 }
 
-#signin{
+#signinbtn{
     left: 80%;
     top: 1%;
 }
 
-#signup{
+#signupbtn{
     left: 90%;
     top: 1%;
 }

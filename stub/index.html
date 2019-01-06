@@ -18,8 +18,8 @@
     <div class="header">
 
         <span id="mainheading" class="heading">ScriBBler</span>
-        <button class= "button" id="signin" onclick="signIn()">Sign In</button>
-        <button class= "button" id="signup" onclick="signUp()">Sign Up</button><br>
+        <button class= "button" id="signinbtn" onclick="signIn()">Sign In</button>
+        <button class= "button" id="signupbtn" onclick="signUp()">Sign Up</button><br>
         <span id="subheading" class = "heading">Explore, Imagine, Create</span>
         <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
 
@@ -32,10 +32,31 @@
         <button id="createPost" class="Buttons" onclick="createPost()">Create Post</button>
     </div>
 </div>
+<!-- Code for Sign In modal -->
+<div id="SignIn" class="modal">
+    <form>
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class ="close" onclick="close_signIn()" >&times;</span>
+            <!--span onclick="document.getElementById('SignIn').style.display='none'" class="close" title="Close Modal">&times;</span-->
+        </div>
+        <h1>Welcome Back!</h1>
+        <hr>
+        <div class="container">
 
-<div>
 
-    <!-- Insert code for Sign In modal here -->
+            <label class="Uname"><b>Username</b></label>
+            <input type="text"  placeholder="Enter Username" name="Uname" required>
+
+            <label class="psw"><b>Password</b></label>
+            <input type="password"  placeholder="Enter Password" name="psw" required>
+
+
+            <button type="submit" class="signinbtn">Sign In</button>
+            <p>Not a member? <span id="signup" onclick="signUp()" style="color:blue">Sign Up</span></p>
+        </div>
+    </form>
+</div>
 
 </div>
 
