@@ -48,7 +48,7 @@ likeButton.addEventListener('click',()=>{
 	likeCounter++;
 	likeButton.innerHTML="Liked!";
 	if(likeCounter==1){
-		likeText.innerHTML=likeCounter + " person has liked this!";
+		likeText.innerHTML=likeCounter + " person likes this!";
 	}else{
 		likeText.innerHTML= likeCounter+" people have liked this!";
 	}
