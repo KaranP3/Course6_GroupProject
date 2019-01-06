@@ -8,3 +8,4 @@ function close_CreatePost(){
     CreatePost.style.display = "none";
 
 }
+
