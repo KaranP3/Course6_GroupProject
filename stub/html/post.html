@@ -5,9 +5,6 @@
     <link href='..\css\header.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
     <link href='..\css\font.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>        
 </style>     
 </head>
@@ -31,7 +28,7 @@
 
                     <!-- Insert code for Edit/Save button and  -->
                     <p id="blogAuthorName">Jimi</p>
-                    <button id="editContentButton" class="btn">Edit &nbsp<i class="fa fa-edit"></i></button>
+                    <button id="editContentButton" class="postPageButton" onclick="editBlog()">Edit &nbsp<i class="fa fa-edit"></i></button>
                 </div>
 
                 <div class="blogText">
@@ -45,7 +42,7 @@
 
                 <!-- Code for Like Button-->
                 <div class="likeSection">
-                    <button id="likeButton" class="btn"><i class="fa fa-thumbs-up"></i>&nbsp Like</button><br/>
+                    <button id="likeButton" class="postPageButton" onclick="likeBlog()"><i class="fa fa-thumbs-up"></i>&nbsp Like</button><br/>
                     <p id="likeText">Be the first one to like this!</p>    
                 </div>
                 
@@ -53,7 +50,7 @@
                 <div class="commentSection">
 
                     <textarea id="addCommentArea" rows=4 placeholder="Leave a comment..." ></textarea><br/>
-                    <button id="addCommentButton" class="btn">Comment</button>
+                    <button id="addCommentButton" class="postPageButton" onclick="addComment()">Comment</button>
                     <h3 id="commentListHeading">All Comments</h3>
                     <div id="commentList">
                     </div>
