@@ -31,3 +31,4 @@ function closeModal() {
      let modalEl = document.getElementById('deletePostModal'); // modal element
      modalEl.style.display = 'none';
 }
+

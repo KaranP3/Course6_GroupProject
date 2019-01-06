@@ -1,17 +1,19 @@
 /* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
 the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
 .heading{
     font-family: 'Satisfy';
     color: blue;
     font-size: 60px;
     margin: 10px;
+
 }
 
 #subheading{
+    color: white;
     font-family: 'Satisfy';
-    color: gray;
     font-size: 15px;
-    margin: 10px;
+    margin: 40px;
 }
 
 .button{
@@ -38,12 +40,12 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     }
 }
 
-#signinbtn{
+#signin{
     left: 80%;
     top: 1.5%;
 }
 
-#signupbtn{
+#signup{
     left: 90%;
     top: 1.5%;
 }

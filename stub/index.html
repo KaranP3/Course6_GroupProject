@@ -10,8 +10,7 @@
 
     <!-- Place all CSS for fonts in this file -->
     <link href='css\font.css' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js\header.js"></script>
-    <script type="text/javascript" src="js\index.js"></script>
+    
 </head>
 <body>
 <div id="main-container-div">
@@ -19,8 +18,8 @@
     <div class="header">
 
         <span id="mainheading" class="heading">ScriBBler</span>
-        <button class= "button" id="signinbtn" onclick="signIn()">Sign In</button>
-        <button class= "button" id="signupbtn" onclick="signUp()">Sign Up</button><br>
+        <button class= "button" id="signin" onclick="signIn()">Sign In</button>
+        <button class= "button" id="signup" onclick="signUp()">Sign Up</button><br>
         <span id="subheading" class = "heading">Explore, Imagine, Create</span>
         <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
 
@@ -33,6 +32,7 @@
         <button id="createPostbtn" class="Buttons" onclick="createPost()">Create Post</button>
     </div>
 </div>
+
 <!-- Code for Sign In modal -->
 <div id="SignIn" class="modal">
     <form>
@@ -117,5 +117,7 @@
     </form>
 </div>
 
+<script type="text/javascript" src="js\header.js"></script>
+    <script type="text/javascript" src="js\index.js"></script>
 </body>
 </html>

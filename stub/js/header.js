@@ -1,24 +1,18 @@
 function signIn(){
-    SignUp.style.display = "none";
-    CreatePost.style.display = "none";
-    SignIn.style.display = "block";
-
+    let signInEl = document.getElementById('SignIn')
+    signInEl.style.display = "block";
 }
 
 function close_signIn(){
-
-    SignIn.style.display = "none";
-
+    let signInEl = document.getElementById('SignIn')
+    signInEl.style.display = "none";
 }
 
 function signUp(){
-    SignIn.style.display = "none";
-    CreatePost.style.display = "none";
-    SignUp.style.display = "block";
-
+    let signUpEl = document.getElementById('SignUp')
+    signUpEl.style.display = "block";
 }
 function close_signUp(){
-
-    SignUp.style.display = "none";
-
+    let signUpEl = document.getElementById('SignUp')
+    signUpEl.style.display = "none";
 }
