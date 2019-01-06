@@ -1,6 +1,7 @@
 :root{
 	--main-content-margin:24px;
 	--postpage-button-color:#F02875;
+	--inter-element-margin:12px;
 }
 .blogTite {
 	font-size: 150%;
@@ -16,24 +17,23 @@
 	text-align-last:initial;
 }
 .blogAuthor {
-	padding: 0px 0px 0px 10px;
+	padding: 0px 0px 0px 0px;
 	font-family: 'Niconne', cursive;
 	font-size: 30px;
 	display: flex;
 	justify-content: space-between;
 	width:100%;
-	
 	text-align: justify;
 	
 }
 .blogContent{
-
+margin:var(--main-content-margin);
 }
 
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
 
 
-.btn{
+.postPageButton{
 	background-color: var(--postpage-button-color);
 	border:none;
 	box-shadow: 0px 8px 15px rgba(246, 136, 178, 0.4);
@@ -42,38 +42,44 @@
 	outline: none;
 	color:#FFFFFF;
 	font-family: Helvetica;
+	text-align: center;
+    font-size: 12pt;
+    padding: 12px 20px;
+    border-radius: 5px;
 }
-.btn:hover {
+.postPageButton:hover {
 	background-color: var(--postpage-button-color);
 	box-shadow: 0px 15px 20px rgba(246, 136, 178, 0.4);
 	transform: translateY(-7px);
-	color:#FFFFFF;
+	color:#000000;
 	font-family: Helvetica;
 }
 
 #editContentButton{
-	margin-right: 24px;
-  	margin-bottom: 16px;
+	margin-top: 24px;
+	height:40px;
+	text-align: center;
 }
 
 #blogAuthorName{
-	margin-left: 8px;
-	text-align: left;
+	margin-left: 0px;
 }
 #blogEditArea{
 	display:none;
 	width:100%;
-
+    margin-bottom: var(--inter-element-margin);
 }
 
 #blogTitle{
 	border-color: #ffffff;
+	margin: auto;
+    width: 50%;
 }
 
 #addCommentArea{
 	width: 70%;
-	
-	margin-top: 10px;
+	margin-bottom: var(--inter-element-margin);
+	margin-top: var(--inter-element-margin);
 }
 #commentList{
 	background-color: #f0f0f2;
@@ -85,17 +91,11 @@
 	background-color: #FFFFFF;
 	padding: 10px; 
 	margin:5px;
+   text-align: justify; 
+   text-align-last: initial;
 }
 
-.blogText{
-	margin:var(--main-content-margin);
-}
-.likeSection{
-	margin:var(--main-content-margin);
-}
-.commentSection{
-	margin:var(--main-content-margin);
-}
+
 #likeText{
-	margin-top:10px;
+	margin-top:var(--inter-element-margin);
 }
