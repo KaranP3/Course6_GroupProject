@@ -24,37 +24,31 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     border: 1px solid transparent;
     color: white;
     border-radius: 4px;
-}
+}  
 
-@media screen and (max-width: 1060px) { /* width at which layout changes  */
-    .button {
-        padding: 12px 10px;
-    }
-}
-
-@media screen and (max-width: 850px) { /* width at which layout changes  */
+@media screen and (max-width: 850px) {
     .button {
         padding: 12px 5px;
     }
 }
 
-@media screen and (max-width: 715px) { /* width at which layout changes  */
+@media screen and (max-width: 715px) {
     .button {
         padding: 12px 3px;
     }
 }
 
-#signin{
+#signinbtn{
     left: 80%;
     top: 1.5%;
 }
 
-#signup{
+#signupbtn{
     left: 90%;
     top: 1.5%;
 }
 
-@media screen and (max-width: 714px) { /* width at which layout changes  */
+@media screen and (max-width: 714px) {
     #signin {
         left: 78%;
     }
@@ -63,7 +57,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     }
 }
 
-@media screen and (max-width: 620px) { /* width at which layout changes  */
+@media screen and (max-width: 620px) {
     #signin {
         left: 76%;
     }
@@ -72,7 +66,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     }
 }
 
-@media screen and (max-width: 555px) { /* width at which layout changes  */
+@media screen and (max-width: 555px) {
     #signin {
         left: 72%;
     }
@@ -81,7 +75,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
     }
 }
 
-@media screen and (max-width: 555px) { /* width at which layout changes  */
+@media screen and (max-width: 555px) {
     #signin {
         left: 68%;
     }
