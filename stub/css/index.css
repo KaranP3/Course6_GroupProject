@@ -10,13 +10,13 @@ body{
    display: block;
 }
 
-#allPost{
+#allPostbtn{
     top: 50%;
     left: 40%;
 
 }
 
-#createPost{
+#createPostbtn{
     top: 50%;
     left: 52%;
 }
@@ -105,6 +105,19 @@ input[type=text], input[type=password] {
     font-size :15px;
     border: 0ch;
     margin-top :10px;
+}
+
+.Createbtn{
+    background: green;
+    color: white;
+    width:100px;
+    padding: 5px 5px;
+    border: 0ch;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    position:relative;
+    left:5%;
 }
 
 #signuplink{
